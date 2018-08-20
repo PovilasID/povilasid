@@ -327,17 +327,37 @@ aside {
   background-size: cover;
   height: 400px;
   position: relative;
+  background-image: url(../img/me-in-coffice_vsyiea/me-in-coffice_vsyiea_c_scale,w_616.jpg);
 }
-
+@media (min-width: 250px) {
+  aside {
+    background-image: url(../img/me-in-coffice_vsyiea/me-in-coffice_vsyiea_c_scale,w_373.jpg);
+  }
+}
+@media (min-width: 350px) {
+  aside {
+    background-image: url(../img/me-in-coffice_vsyiea/me-in-coffice_vsyiea_c_scale,w_616.jpg);
+  }
+}
 @media (min-width: 576px) {
   aside {
     height: 100vh;
     position: fixed;
     right: 0;
     top: 0;
+    background-image: url(../img/me-in-coffice_vsyiea/me-in-coffice_vsyiea_c_scale,w_373.jpg);
   }
 }
-
+@media (min-width: 700px) {
+  aside {
+    background-image: url(../img/me-in-coffice_vsyiea/me-in-coffice_vsyiea_c_scale,w_616.jpg);
+  }
+}
+@media (min-width: 1000px) {
+  aside {
+    background-image: url(../img/me-in-coffice_vsyiea/me-in-coffice_vsyiea_c_scale,w_1400.jpg);
+  }
+}
 main {
   float: left;
   padding: 7%;
